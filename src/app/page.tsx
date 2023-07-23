@@ -1,6 +1,6 @@
 'use client';
 import * as React from 'react';
-import { Header, NameSection, ParallaxImage } from '@/components';
+import { AboutHome, Header, NameSection, ParallaxImage } from '@/components';
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <main className='h-[200vh]'>
         <NameSection />
         <ParallaxImage priority src='/images/man.webp' alt='' />
+        <AboutHome />
       </main>
     </>
   )
