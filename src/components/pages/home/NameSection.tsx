@@ -9,7 +9,7 @@ const NameSection = () => {
             </div>
             <div className='font-semibold flex items-center justify-between text-[2rem]'>
                 <h3>(Berlin, Germany)</h3>
-                <h3>Scroll down</h3>
+                <a href = '#about'>Scroll down</a>
             </div>
         </div>
     )

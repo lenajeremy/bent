@@ -14,9 +14,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <SmoothScroll>
-        <body>{children}</body>
-      </SmoothScroll>
+      <body>
+        <SmoothScroll>
+          {children}
+          <div id='menu'></div>
+        </SmoothScroll>
+      </body>
     </html>
   )
 }

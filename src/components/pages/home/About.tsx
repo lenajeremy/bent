@@ -41,7 +41,7 @@ const About = () => {
     }, [])
 
     return (
-        <div ref={containerRef}>
+        <div ref={containerRef} id = 'about'>
             <div className='text-[5.6rem] text-black grid grid-cols-[1fr,_2px,_0.5fr] gap-16 p-16'>
                 <h2 className='leading-[100%] font-semibold'>
                     As a digital designer, I focus on producing <br /> top-notch and <br /> impactful  digital experiences.
